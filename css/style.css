@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.centratura{
+.wrapper{
   width: 400px;
   margin: auto;
 }
@@ -15,7 +15,6 @@ header{
   width: 400px;
   height: 80px;
   position: relative;
-  border: 2px solid lightyellow;
 }
 
 nav{
@@ -30,7 +29,8 @@ main{
   background-color: lightyellow;
   width: 400px;
   height: 450px;
-  border: 2px solid lightyellow;
+  margin-top: 3.16px;
+  margin-bottom: 3.16px;
 }
 
 footer{
@@ -38,14 +38,12 @@ footer{
   width: 400px;
   height: 240px;
   background-color: blue;
-  border: 2px solid lightyellow;
 }
 
 /* zona main */
 
     /*divs-ider*/
     .left, .right{
-      background-color: pink;
       width: 30%;
       height: 100%;
       float: left;
@@ -53,9 +51,14 @@ footer{
 
     .center{
       background-color: gray;
-      width: 40%;
+      width: 38%;
       height: 100%;
       float: left;
+      margin: 0 1%;
+    }
+
+    div aside{
+      margin-bottom: 3.16px;
     }
 
        /*left side*/

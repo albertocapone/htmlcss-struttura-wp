@@ -4,17 +4,21 @@
   box-sizing: border-box;
 }
 
+body{
+  background-image: url("../img/sfondo.png");
+}
+
 .wrapper{
   width: 400px;
   margin: auto;
 }
 
-
 header{
-  background-color: red;
+  background-color: white;
   width: 400px;
   height: 80px;
   position: relative;
+  border: 1px solid black;
 }
 
 nav{
@@ -22,11 +26,11 @@ nav{
   height: 20%;
   top: 80%;
   position: absolute;
-  background-color: indigo;
+  background-color: darkgray;
+  border: 1px solid black;
 }
 
 main{
-  background-color: lightyellow;
   width: 400px;
   height: 450px;
   margin-top: 3.16px;
@@ -37,62 +41,59 @@ footer{
   position: relative;
   width: 400px;
   height: 240px;
-  background-color: blue;
 }
 
 /* zona main */
 
-    /*divs-ider*/
-    .left, .right{
-      width: 30%;
-      height: 100%;
-      float: left;
-    }
-
-    .center{
-      background-color: gray;
-      width: 38%;
-      height: 100%;
-      float: left;
-      margin: 0 1%;
-    }
-
-    div aside{
-      margin-bottom: 3.16px;
-    }
-
-       /*left side*/
-      .pages{
-        height: 35%;
-        background-color: purple;
-      }
-
-      .archives{
-        height: 10%;
-        background-color: brown;
-      }
-
-      .meta{
-        height: 15%;
-        background-color: orange;
-      }
-
-      /* center */
-      .articoli{
+        /*divs corpo */
+        .left, .right{
+        width: 30%;
         height: 100%;
-        background-color: black;
-      }
+        float: left;
+        }
 
-      /*right side*/
-      .search{
+        .center{
+        background-color: gray;
+        width: 38%;
+        height: 100%;
+        float: left;
+        margin: 0 1%;
+        }
+
+        div aside{
+        margin-bottom: 3.16px;
+        border: 1px solid black;
+        background-color: white;
+        }
+
+        /*left side*/
+        .pages{
+        height: 35%;
+        }
+
+        .archives{
         height: 10%;
-        background-color: yellow;
-      }
+        }
 
-      .tagcloud{
+        .meta{
         height: 15%;
-        background-color: green;
-      }
+        }
+
+        /* center */
+        .articoli{
+        height: 100%;
+        background-color: white;
+        border: 1px solid black;
+        }
+
+        /*right side*/
+        .search{
+        height: 10%;
+        }
+
+        .tagcloud{
+        height: 15%;
+        }
 
       /* clearfix main */
       main::after{
@@ -101,33 +102,34 @@ footer{
         clear: both;
       }
 
+
+
 /* zona footer */
       footer div{
         float: left;
         width: 25%;
         height: 70%;
+        border: 1px solid black;
+        background-color: white;
       }
 
       .f_posts{
-        background-color: brown;
       }
 
       .f_comments{
-        background-color: red;
       }
 
       .f_categories{
-        background-color: yellow;
       }
 
       .f_textwidg{
-        background-color: green;
       }
 
       .f_lastinfo{
         height: 30%;
         width: 100%;
-        background-color: gold;
+        border: 1px solid black;
+        background-color: white;
         position: absolute;
         top: 70%;
       }
